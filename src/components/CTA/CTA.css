@@ -1,0 +1,128 @@
+.cta{
+    background: #ffffff;
+    padding: 90px 20px;
+}
+
+.cta-container{
+    max-width: 1120px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #1fd160 0%, #26356d 100%);
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 55px;
+    gap: 60px;
+    overflow: hidden;
+}
+
+.cta-content{
+    flex: 1;
+}
+
+.cta-content h2{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.18;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.cta-content p {
+    color: rgba(255,255,255,.9);
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 480px;
+    margin-bottom: 38px;
+}
+
+.cta-content button {
+    background: transparent;
+    color: #fff;
+    border: 1.5px solid rgba(255,255,255,.8);
+    border-radius: 10px;
+    padding: 16px 34px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.cta-content button:hover {
+    background: #fff;
+    color: #1b2b66;
+}
+
+.cta-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-image img {
+    width: 100%;
+    max-width: 470px;
+    display: block;
+    border-radius: 24px;
+}
+
+@media (max-width:992px){
+
+    .cta-container{
+        flex-direction: column;
+        text-align:center;
+        padding:55px 35px;
+        gap:45px;
+    }
+
+    .cta-content p{
+        margin-inline:auto;
+    }
+
+    .cta-content h2{
+        font-size:42px;
+    }
+
+    .cta-image img{
+        max-width:430px;
+    }
+
+}
+
+@media (max-width:576px){
+
+    .cta{
+        padding:70px 18px;
+    }
+
+    .cta-container{
+        padding:40px 24px;
+        border-radius:20px;
+        gap:32px;
+    }
+
+    .cta-content h2{
+        font-size:34px;
+        line-height:1.22;
+    }
+
+    .cta-content p{
+        font-size:15px;
+        line-height:1.7;
+        margin-bottom:28px;
+    }
+
+    .cta-content button{
+        width:100%;
+        padding:15px;
+        font-size:14px;
+    }
+
+    .cta-image img{
+        width:100%;
+        max-width:320px;
+        border-radius:18px;
+    }
+
+}

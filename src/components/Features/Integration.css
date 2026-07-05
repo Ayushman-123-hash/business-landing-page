@@ -1,0 +1,132 @@
+.integration{
+    background: white;
+    padding: 90px 20px;
+}
+
+.integration-heading{
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.integration-heading h2{
+    font-size: 52px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.integration-heading p{
+    font-size: 18px;
+    color: rgb(56, 56, 56);
+    line-height: 1.6;
+}
+
+.integration-container{
+    max-width: 1150px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 24px;
+}
+
+.integration-card{
+    border-radius: 18px;
+    overflow: hidden;
+    transition:0.3s;
+}
+
+.integration-card img{
+    width: 100%;
+    display: block;
+    border-radius: 18px;
+}
+
+.product-tour{
+    background:#f7f8fc;
+    padding: 90px 20px;
+}
+
+.product-heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.product-heading h2{
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: black;
+}
+
+.product-heading span{
+    color: royalblue;
+}
+
+.product-image{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.product-image img{
+    width: 100%;
+    display: block;
+}
+
+@media(max-width:992px){
+    .integration-heading h2{
+        font-size: 40px;
+    }
+
+    .integration-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .product-tour{
+        padding: 70px 20px;
+    }
+
+    .product-heading h2{
+        font-size: 42px;
+    }
+
+    .product-image{
+        max-width: 800px;
+    }
+}
+
+@media(max-width:576px){
+    .integration{
+        padding: 70px 18px;
+    }
+
+    .integration-heading{
+        margin-bottom: 40px;
+    }
+
+    .integration-heading h2{
+        font-size: 32px;
+    }
+
+    .integration-heading p{
+        font-size: 15px;
+    }
+
+    .integration-container{
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .product-tour{
+        padding: 60px 18px;
+    }
+
+    .product-heading{
+        margin-bottom: 35px;
+    }
+
+    .product-heading h2{
+        font-size: 30px;
+        line-height: 1.3;
+    }
+}
+

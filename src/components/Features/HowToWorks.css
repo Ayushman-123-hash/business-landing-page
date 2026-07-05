@@ -1,0 +1,118 @@
+.how-it-works{
+    background: #EAF5FF;
+    padding: 90px 20px;
+}
+
+.how-heading{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.how-heading h2{
+    font-size: 52px;
+    margin-bottom: 15px;
+    line-height: 1.25;
+    color:#141b34
+}
+
+.how-heading h2 span{
+    color:royalblue;
+}
+
+.how-heading p{
+    color: gray;
+    font-size: 18px;
+}
+
+.steps-grid{
+    max-width: 1180px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 24px;
+}
+
+.step-card img{
+    width: 100%;
+    display: block;
+}
+
+.step-info{
+    padding: 22px;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.step-number{
+    font-size: 44px;
+    font-weight: 700;
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+.step-card:nth-child(1) .step-number{
+    color:green;
+}
+
+.step-card:nth-child(2) .step-number{
+    color:royalblue;
+}
+
+.step-card:nth-child(3) .step-number{
+    color:purple;
+}
+
+.step-card:nth-child(4) .step-number{
+    color:deepskyblue;
+}
+
+.step-info h3{
+    font-size: 19px;
+    color: #1B233D;
+}
+
+@media(max-width:992px){
+    .how-heading h2{
+        font-size: 40px;
+    }
+
+    .steps-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width:576px){
+    .how-it-works{
+        padding: 70px 20px;
+    }
+
+    .how-heading{
+        margin-bottom: 45px;
+    }
+
+    .how-heading h2{
+        font-size: 32px;
+    }
+
+    .how-heading p{
+        font-size: 15px;
+    }
+
+    .steps-grid{
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
+    .step-info{
+        padding: 18px;
+    }
+
+    .step-info h3{
+        font-size: 20px;
+    }
+
+    .step-number{
+        font-size: 38px;
+    }
+}
