@@ -17,9 +17,12 @@ function Footer() {
                     <div className="footer-top">
 
                         <div className="footer-brand">
-
+                            
+                            <div className="footer-logo-wrapper">
+                                <img src={footerLogo} alt="logo" className="footer-logo"/>
+                            </div>
+                            
                             <div className="brand-logo">
-                                <img src={footerLogo} alt="logo" />
                                 <img src={logoText} alt="KR Customizer" className="logo-text" />
                             </div>
 
