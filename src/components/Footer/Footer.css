@@ -23,8 +23,8 @@
 }
 
 .footer-logo-wrapper{
-    width: 36px;
-    height: 36px;
+    width: 38px;
+    height: 38px;
     background: #0f172a;
     border-radius: 50%;
     display: flex;
@@ -39,11 +39,11 @@
     object-fit: contain;
 }
 
-.brand-logo {
+.brand-logo{
     display: flex;
     align-items: center;
-    gap: 12px;
-    margin-bottom: 28px;
+    gap: 10px;
+    margin-bottom: 22px;
 }
 
 .brand-logo img:first-child {
@@ -52,6 +52,8 @@
 
 .logo-text {
     width: 150px;
+    height: auto;
+    display: block;
 }
 
 .footer-brand p {
